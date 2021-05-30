@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Goblin+One&display=swap");
+
+header {
+  display: block;
+  position: absolute;
+  margin: 0;
+  width: 100%;
+  z-index: 5;
+}
+
+.button-menu {
+  padding-top: 5%;
+  display: grid;
+  grid-template-columns: 80% 10%;
+}
+
+.button-menu h2 {
+  color: rgba(228, 222, 222, 0.8);
+  font-size: 1.3em;
+  font-family: "Goblin One", cursive;
+  margin-left: 10%;
+  padding-top: 8px;
+}
+
+.button-menu img {
+  filter: invert(1);
+}
